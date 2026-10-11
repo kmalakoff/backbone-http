@@ -23,6 +23,7 @@
     "node": "*"
   },
   "scripts": {
+    "prepublishOnly": "node scripts/require-dist-tag.cjs",
     "test": "gulp test --quick"
   },
   "devDependencies": {
