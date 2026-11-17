@@ -10,3 +10,4 @@ _temp/
 .agents/
 .archive/
 .tmp/
+.cache/
